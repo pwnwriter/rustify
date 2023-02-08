@@ -73,6 +73,8 @@ pub fn data_types() {
 }
 
 pub fn tuples() {
+    /*Tuples in Rust are collections of values of different data types, grouped together into a single compound value.*/
+
     let a_tuple: (i32, f64, bool, char, &str) = (42, 3.14, true, 'z', "Hello, Rust!");
 
     println!("Tuple: {:?}", a_tuple);
@@ -81,6 +83,8 @@ pub fn tuples() {
 }
 
 pub fn arrays() {
+    /* Arrays in Rust are fixed-size collections of values of the same data type. 
+     * They are defined using square brackets and comma-separated values.*/
     let months = [
         "January",
         "February",
