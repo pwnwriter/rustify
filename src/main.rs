@@ -1,13 +1,14 @@
-mod d1;
+//mod d2;
 
-use d1::{constants, muts, shadowing, variables, data_types, tuples, arrays};
+mod d2_ownerships;
+
+
+//use d2::{comments, expressions, functions, loops, ownerships};
+
+use d2_ownerships::*;
+
 
 fn main() {
-    variables();
-    muts();
-    constants();
-    shadowing();
-    data_types();
-    tuples();
-    arrays();
+    ownerships();
+
 }

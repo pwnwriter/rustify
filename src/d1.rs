@@ -83,7 +83,7 @@ pub fn tuples() {
 }
 
 pub fn arrays() {
-    /* Arrays in Rust are fixed-size collections of values of the same data type. 
+    /* Arrays in Rust are fixed-size collections of values of the same data type.
      * They are defined using square brackets and comma-separated values.*/
     let months = [
         "January",
