@@ -2,3 +2,4 @@
 Cargo.lock
 *.pdf
 *.md
+/tests
