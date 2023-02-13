@@ -1,0 +1,10 @@
+[package]
+name = "catty"
+version = "0.1.0"
+authors = ["pwnwriter <hey@pwnwriter.xyz>"]
+edition = "2018"
+
+[dependencies]
+synoptic = "0"
+termion = "1.5.6"
+
