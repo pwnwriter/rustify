@@ -6,6 +6,7 @@ fn main() {
         println!("{}", i);
     }
     println!("{}", v[1]);
+    test();
 }
 
 /*
@@ -15,3 +16,8 @@ because the loop takes ownership of the vector and leaves it empty
 afterwards, the attempt to print the second element results in a runtime error.
 To fix this, you can clone the vector before iterating over it or use a reference to the vector in the loop.
 */
+
+fn test() {
+    let a = 1;
+    println!("{:p}", &a)
+}
