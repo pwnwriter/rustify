@@ -1,3 +1,8 @@
+mod o;
+
+use o::t;
+
+
 fn main() {
     let v = vec!["1", "2", "3"];
     println!("{}", v[1]);
@@ -7,6 +12,7 @@ fn main() {
     }
     println!("{}", v[1]);
     test();
+    t();
 }
 
 /*
