@@ -1,0 +1,15 @@
+[package]
+  name = "rustrocket"
+  version = "0.1.0"
+  edition = "2021"
+
+[dependencies]
+  lambda_http = "0.6.1"
+  lambda_runtime = "0.6.1"
+  serde = "1.0.145"
+  tokio = { version = "1", features = ["macros"] }
+  tracing = { version = "0.1", features = ["log"] }
+  tracing-subscriber = { version = "0.3", default-features = false, features = ["fmt"] }
+  
+[[bin]]
+  name = "hello"
